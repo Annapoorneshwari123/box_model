@@ -1,0 +1,101 @@
+.padding{
+    border: 2px solid #ccc;
+}
+.padding h1{
+    width: fit-content;
+}
+.b1{
+    background-color: rgb(6, 6, 89);
+    color: white;
+    padding: 30px;
+}
+.b2{
+    background-color: red;
+    color: white;
+    padding: 30px 60px;/*x-axis 1st value y-axis 2nd value */
+}
+.b3{
+    background-color: rgb(38, 247, 247);
+    color: rgb(0, 0, 0);
+    padding: 25px 50px 75px;/*top x-axis (left right) bottom */
+}
+.b2{
+    background-color: red;
+    color: white;
+    padding:25px 50px 75px 100px ;/*all side */
+}
+.borders{
+    padding: 30px;
+}
+.borders h1{
+    width: fit-content;
+    padding: 20px;
+}
+.borders .f1{
+    border:5px solid darkgoldenrod;
+}
+.borders .f2{
+    border-width: 5px ;
+    border-color: red green;/*y-axis and x-axis*/
+    border-style: dotted;
+}
+.borders .f3{
+    border-width: 5px ;
+    border-color: red green blue;
+    border-style: dashed;
+}
+.borders .f4{
+    border-width: 5px ;
+    border-color: red green blue black;
+    border-style: groove;
+}
+.loading-example{
+    padding: 30px;
+}
+.loading{
+    width: 40px;
+height: 40px;
+background-color: transparent;
+border-radius: 100px;
+border-width: 8px;
+border-color: blue transparent blue blue;
+border-style: dotted;
+animation: animate 0.9s linear infinite;
+}
+@keyframes animate{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+.example3{
+    padding: 30px;
+}
+.e1{
+    width: 10px;
+    border-width: 30px;
+    border-color: transparent green transparent green;
+    border-style: solid;
+    border-radius: 100px;
+animation: animate 0.9s linear infinite;
+}
+
+
+.margins{
+    padding: 30px;
+}
+.margins .f1{
+    margin: 30px;
+}
+.margins .f2{
+    margin: 25px 50px;
+}
+.margins .f3{
+    margin: 25px 50px 75px;
+}
+.margins .f4{
+    margin: 25px 50px 75px 100px;
+}
+
